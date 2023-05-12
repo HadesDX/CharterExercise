@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "ed5f5dc1-2948-4242-b0ed-4766f1fca09a",
+		"name": "CharterExercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2405638",
+		"_collection_link": "https://red-star-5830.postman.co/workspace/Japami~ecc47277-f74b-40c6-ad74-143bdd62a927/collection/2405638-ed5f5dc1-2948-4242-b0ed-4766f1fca09a?action=share&creator=2405638&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "GetClientPoints",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/points?user=c43e778d-50d5-49da-8d96-7964b0f929d7",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"points"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "c43e778d-50d5-49da-8d96-7964b0f929d7",
+							"description": "User identifier"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
